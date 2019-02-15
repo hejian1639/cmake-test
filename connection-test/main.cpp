@@ -11,6 +11,8 @@
 #include<sys/types.h>
 #include<iostream>
 #include<sstream>
+#include<sys/errno.h>
+
 #define TIMEOUT 5 //由于把socket设置为非阻塞，使用select函数，观察其
 //5秒后的是否连接成功，连接不成功则认为其端口没有开放
 
