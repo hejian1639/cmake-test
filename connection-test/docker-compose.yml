@@ -1,0 +1,27 @@
+version: '2.4'
+services:
+  connection:
+    build:
+      context: .
+    image: connection
+    container_name: connection
+    ulimits:
+      core: 0
+
+    cpus: 4
+    mem_limit: 512m
+    blkio_config:
+      weight: 100
+      device_read_bps:
+        - path: /dev/sda
+          rate: '12mb'
+      device_read_iops:
+        - path: /dev/sda
+          rate: 120
+      device_write_bps:
+        - path: /dev/sda
+          rate: '1024k'
+      device_write_iops:
+        - path: /dev/sda
+          rate: 30
+
