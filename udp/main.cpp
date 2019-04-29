@@ -19,6 +19,7 @@
 #include <netdb.h> /* netbd.h is needed for struct hostent =) */
 #include <time.h>
 #include <iostream>
+#include <chrono>
 
 #define PORT 3000 /* Port that will be opened */
 #define MAXDATASIZE 1024*16 /* Max number of bytes of data */
@@ -100,9 +101,13 @@ int main()
         }
         
         recvmsg[num] = '\0';
-        sendto(fd,recvmsg,num,0,(struct sockaddr *)&send_server,sin_size);
         
-        fps();
+        for(int i = 0; i < 1024; ++i)
+        {
+            sendto(fd,recvmsg,num,0,(struct sockaddr *)&send_server,sin_size);
+            fps();
+
+        }
         //        printf("You got a message (%s) from %s\n",recvmsg,inet_ntoa(client.sin_addr) ); /* prints client's IP */
         
     }
