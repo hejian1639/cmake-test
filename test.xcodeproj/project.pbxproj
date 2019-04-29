@@ -11,6 +11,10 @@
 		F638021122168B1600BE3902 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F638021022168B1600BE3902 /* main.cpp */; };
 		F638021C22168C5600BE3902 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F638021B22168C5600BE3902 /* main.cpp */; };
 		F6380227221696AD00BE3902 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6380226221696AD00BE3902 /* main.cpp */; };
+		F65D01292276A77900714596 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F65D01282276A77900714596 /* main.cpp */; };
+		F65D01342276AB7700714596 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F65D01332276AB7700714596 /* main.cpp */; };
+		F6B62D54223CEF6A0008625E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6B62D53223CEF6A0008625E /* main.cpp */; };
+		F6B62D5F223CF03E0008625E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6B62D5E223CF03E0008625E /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,7 +54,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		F69E331E21E19B3900BE1BDB /* CopyFiles */ = {
+		F65D01242276A77900714596 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F65D012F2276AB7700714596 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F6B62D4F223CEF6A0008625E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F6B62D5A223CF03E0008625E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -70,7 +101,14 @@
 		F638021B22168C5600BE3902 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6380224221696AD00BE3902 /* web */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = web; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6380226221696AD00BE3902 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		F69E332021E19B3900BE1BDB /* tail */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tail; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65D01262276A77900714596 /* udp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = udp; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65D01282276A77900714596 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F65D01312276AB7700714596 /* udp-client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "udp-client"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65D01332276AB7700714596 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F6B62D51223CEF6A0008625E /* sock-client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "sock-client"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B62D53223CEF6A0008625E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F6B62D5C223CF03E0008625E /* sock-server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "sock-server"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B62D5E223CF03E0008625E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +140,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F69E331D21E19B3900BE1BDB /* Frameworks */ = {
+		F65D01232276A77900714596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65D012E2276AB7700714596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B62D4E223CEF6A0008625E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B62D59223CF03E0008625E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -144,6 +203,22 @@
 			path = web;
 			sourceTree = "<group>";
 		};
+		F65D01272276A77900714596 /* udp */ = {
+			isa = PBXGroup;
+			children = (
+				F65D01282276A77900714596 /* main.cpp */,
+			);
+			path = udp;
+			sourceTree = "<group>";
+		};
+		F65D01322276AB7700714596 /* udp-client */ = {
+			isa = PBXGroup;
+			children = (
+				F65D01332276AB7700714596 /* main.cpp */,
+			);
+			path = "udp-client";
+			sourceTree = "<group>";
+		};
 		F69E331721E19B3900BE1BDB = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +226,10 @@
 				F638020F22168B1600BE3902 /* server */,
 				F638021A22168C5600BE3902 /* client */,
 				F6380225221696AD00BE3902 /* web */,
+				F6B62D52223CEF6A0008625E /* sock-client */,
+				F6B62D5D223CF03E0008625E /* sock-server */,
+				F65D01272276A77900714596 /* udp */,
+				F65D01322276AB7700714596 /* udp-client */,
 				F69E332121E19B3900BE1BDB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -158,13 +237,32 @@
 		F69E332121E19B3900BE1BDB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F69E332021E19B3900BE1BDB /* tail */,
 				F617BA1D220BAEF0006AB5C7 /* connection-test */,
 				F638020E22168B1600BE3902 /* server */,
 				F638021922168C5500BE3902 /* client */,
 				F6380224221696AD00BE3902 /* web */,
+				F6B62D51223CEF6A0008625E /* sock-client */,
+				F6B62D5C223CF03E0008625E /* sock-server */,
+				F65D01262276A77900714596 /* udp */,
+				F65D01312276AB7700714596 /* udp-client */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F6B62D52223CEF6A0008625E /* sock-client */ = {
+			isa = PBXGroup;
+			children = (
+				F6B62D53223CEF6A0008625E /* main.cpp */,
+			);
+			path = "sock-client";
+			sourceTree = "<group>";
+		};
+		F6B62D5D223CF03E0008625E /* sock-server */ = {
+			isa = PBXGroup;
+			children = (
+				F6B62D5E223CF03E0008625E /* main.cpp */,
+			);
+			path = "sock-server";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,21 +336,72 @@
 			productReference = F6380224221696AD00BE3902 /* web */;
 			productType = "com.apple.product-type.tool";
 		};
-		F69E331F21E19B3900BE1BDB /* tail */ = {
+		F65D01252276A77900714596 /* udp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F69E332721E19B3900BE1BDB /* Build configuration list for PBXNativeTarget "tail" */;
+			buildConfigurationList = F65D012C2276A77900714596 /* Build configuration list for PBXNativeTarget "udp" */;
 			buildPhases = (
-				F69E331C21E19B3900BE1BDB /* Sources */,
-				F69E331D21E19B3900BE1BDB /* Frameworks */,
-				F69E331E21E19B3900BE1BDB /* CopyFiles */,
+				F65D01222276A77900714596 /* Sources */,
+				F65D01232276A77900714596 /* Frameworks */,
+				F65D01242276A77900714596 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = tail;
-			productName = tail;
-			productReference = F69E332021E19B3900BE1BDB /* tail */;
+			name = udp;
+			productName = udp;
+			productReference = F65D01262276A77900714596 /* udp */;
+			productType = "com.apple.product-type.tool";
+		};
+		F65D01302276AB7700714596 /* udp-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F65D01352276AB7700714596 /* Build configuration list for PBXNativeTarget "udp-client" */;
+			buildPhases = (
+				F65D012D2276AB7700714596 /* Sources */,
+				F65D012E2276AB7700714596 /* Frameworks */,
+				F65D012F2276AB7700714596 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "udp-client";
+			productName = "udp-client";
+			productReference = F65D01312276AB7700714596 /* udp-client */;
+			productType = "com.apple.product-type.tool";
+		};
+		F6B62D50223CEF6A0008625E /* sock-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6B62D57223CEF6A0008625E /* Build configuration list for PBXNativeTarget "sock-client" */;
+			buildPhases = (
+				F6B62D4D223CEF6A0008625E /* Sources */,
+				F6B62D4E223CEF6A0008625E /* Frameworks */,
+				F6B62D4F223CEF6A0008625E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sock-client";
+			productName = "sock-client";
+			productReference = F6B62D51223CEF6A0008625E /* sock-client */;
+			productType = "com.apple.product-type.tool";
+		};
+		F6B62D5B223CF03E0008625E /* sock-server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6B62D60223CF03E0008625E /* Build configuration list for PBXNativeTarget "sock-server" */;
+			buildPhases = (
+				F6B62D58223CF03E0008625E /* Sources */,
+				F6B62D59223CF03E0008625E /* Frameworks */,
+				F6B62D5A223CF03E0008625E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sock-server";
+			productName = "sock-server";
+			productReference = F6B62D5C223CF03E0008625E /* sock-server */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -276,7 +425,16 @@
 					F6380223221696AD00BE3902 = {
 						CreatedOnToolsVersion = 10.0;
 					};
-					F69E331F21E19B3900BE1BDB = {
+					F65D01252276A77900714596 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F65D01302276AB7700714596 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F6B62D50223CEF6A0008625E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F6B62D5B223CF03E0008625E = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
@@ -293,11 +451,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F69E331F21E19B3900BE1BDB /* tail */,
 				F617BA1C220BAEF0006AB5C7 /* connection-test */,
 				F638020D22168B1600BE3902 /* server */,
 				F638021822168C5500BE3902 /* client */,
 				F6380223221696AD00BE3902 /* web */,
+				F6B62D50223CEF6A0008625E /* sock-client */,
+				F6B62D5B223CF03E0008625E /* sock-server */,
+				F65D01252276A77900714596 /* udp */,
+				F65D01302276AB7700714596 /* udp-client */,
 			);
 		};
 /* End PBXProject section */
@@ -335,10 +496,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F69E331C21E19B3900BE1BDB /* Sources */ = {
+		F65D01222276A77900714596 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F65D01292276A77900714596 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65D012D2276AB7700714596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65D01342276AB7700714596 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B62D4D223CEF6A0008625E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B62D54223CEF6A0008625E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B62D58223CF03E0008625E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B62D5F223CF03E0008625E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +588,38 @@
 			name = Debug;
 		};
 		F638022A221696AD00BE3902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F65D012A2276A77900714596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F65D012B2276A77900714596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F65D01362276AB7700714596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F65D01372276AB7700714596 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -520,7 +738,7 @@
 			};
 			name = Release;
 		};
-		F69E332821E19B3900BE1BDB /* Debug */ = {
+		F6B62D55223CEF6A0008625E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -528,7 +746,23 @@
 			};
 			name = Debug;
 		};
-		F69E332921E19B3900BE1BDB /* Release */ = {
+		F6B62D56223CEF6A0008625E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6B62D61223CF03E0008625E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6B62D62223CF03E0008625E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -575,6 +809,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		F65D012C2276A77900714596 /* Build configuration list for PBXNativeTarget "udp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65D012A2276A77900714596 /* Debug */,
+				F65D012B2276A77900714596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F65D01352276AB7700714596 /* Build configuration list for PBXNativeTarget "udp-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65D01362276AB7700714596 /* Debug */,
+				F65D01372276AB7700714596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F69E331B21E19B3900BE1BDB /* Build configuration list for PBXProject "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -584,11 +836,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F69E332721E19B3900BE1BDB /* Build configuration list for PBXNativeTarget "tail" */ = {
+		F6B62D57223CEF6A0008625E /* Build configuration list for PBXNativeTarget "sock-client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F69E332821E19B3900BE1BDB /* Debug */,
-				F69E332921E19B3900BE1BDB /* Release */,
+				F6B62D55223CEF6A0008625E /* Debug */,
+				F6B62D56223CEF6A0008625E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6B62D60223CF03E0008625E /* Build configuration list for PBXNativeTarget "sock-server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6B62D61223CF03E0008625E /* Debug */,
+				F6B62D62223CF03E0008625E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

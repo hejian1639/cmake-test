@@ -12,7 +12,7 @@
 		<key>client.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>connection-test.xcscheme</key>
 		<dict>
@@ -22,7 +22,27 @@
 		<key>server.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
+		</dict>
+		<key>sock-client.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>sock-server.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>udp-client.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>udp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>web.xcscheme</key>
 		<dict>
@@ -33,6 +53,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>F617BA1C220BAEF0006AB5C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F65D01252276A77900714596</key>
 		<dict>
 			<key>primary</key>
 			<true/>

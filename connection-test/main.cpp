@@ -18,10 +18,18 @@
 
 
 
+extern char** environ;
 
 //参数是目标机的IP
 int main(int argc,char** argv)
 {
+    int nIndex = 0;
+    
+    for(nIndex = 0; environ[nIndex] != NULL; nIndex++)
+    {
+        printf("%s\n",environ[nIndex]);
+    }
+    
     using namespace std;
     struct sockaddr_in server;
     int scanport;
