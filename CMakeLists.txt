@@ -4,3 +4,4 @@ project (cmake-test)
 
 add_subdirectory(connection-test)
 add_subdirectory(server)
+add_subdirectory(opencv-test)
