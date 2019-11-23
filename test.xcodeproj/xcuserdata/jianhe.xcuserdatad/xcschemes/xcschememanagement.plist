@@ -9,11 +9,6 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>calculator.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>17</integer>
-		</dict>
 		<key>client.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -27,17 +22,22 @@
 		<key>double-middle.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>14</integer>
+		</dict>
+		<key>gamma.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
 		</dict>
 		<key>match.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>15</integer>
 		</dict>
 		<key>middle.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>10</integer>
 		</dict>
 		<key>opencv-test.xcscheme</key>
 		<dict>
@@ -47,12 +47,12 @@
 		<key>ping6.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>17</integer>
 		</dict>
 		<key>positive.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>11</integer>
 		</dict>
 		<key>server.xcscheme</key>
 		<dict>
@@ -62,7 +62,7 @@
 		<key>slow-middle.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>12</integer>
 		</dict>
 		<key>sock-client.xcscheme</key>
 		<dict>
@@ -77,17 +77,17 @@
 		<key>stat.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>9</integer>
 		</dict>
 		<key>test.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>7</integer>
 		</dict>
 		<key>test1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>13</integer>
 		</dict>
 		<key>test2.xcscheme</key>
 		<dict>
@@ -97,7 +97,7 @@
 		<key>udp-client.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>8</integer>
 		</dict>
 		<key>udp.xcscheme</key>
 		<dict>
@@ -113,6 +113,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>F617BA1C220BAEF0006AB5C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F6446558233F78E3006FF4CD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
