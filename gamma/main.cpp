@@ -20,7 +20,6 @@ double production(int n, double deltaN)
 }
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
     std::cout <<pow(1000+0.5,0.5)/production(1000, 0.5) <<"\n";
     return 0;
 }
