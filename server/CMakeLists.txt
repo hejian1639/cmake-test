@@ -1,6 +1,5 @@
-cmake_minimum_required(VERSION 3.4.1)
 project(server)
-add_custom_target(server
-        COMMAND make
-        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 
+AUX_SOURCE_DIRECTORY(. src)
+
+add_executable(server ${src})
